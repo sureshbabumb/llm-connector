@@ -51,7 +51,11 @@ Use the jar file in your project.
 
 ### Using the existing jar file
 ```bash
-If you do not want to make any code changes and want to use the existing JAR, you can copy the llm-java-sdk-1.0.0-SNAPSHOT.jar from the target folder and use it in your Java application.
+If you do not want to make any code changes and want to use the existing JAR:
+
+You can copy the llm-java-sdk-1.0.0-SNAPSHOT.jar from the /target folder
+
+Use it in your Java project.
 ```
 
 ### Quick Start
