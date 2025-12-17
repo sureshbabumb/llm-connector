@@ -11,6 +11,7 @@ This SDK is built with **Java 17** and aims to provide a unified interface for t
 - [Supported Providers](#supported-providers--defaults)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
+  - [UsingExistingJar](#using-the-existing-jar-file)
   - [Quick Start](#quick-start)
 - [Usage Examples](#usage-examples)
 - [Configuration](#configuration)
@@ -41,7 +42,16 @@ This SDK is built with **Java 17** and aims to provide a unified interface for t
 ### Installation
 Ensure you have **Java 17+** and **Maven** installed. Build the project locally:
 ```bash
-mvn clean install
+mvn clean package
+
+This will create a jar file in the target directory.
+
+Use the jar file in your project.
+```
+
+### Using the existing jar file
+```bash
+If you do not want to make any code changes and want to use the existing JAR, you can copy the llm-java-sdk-1.0.0-SNAPSHOT.jar from the target folder and use it in your Java application.
 ```
 
 ### Quick Start
