@@ -4,7 +4,7 @@ A lightweight, framework-agnostic Java SDK designed to connect seamlessly to maj
 
 This SDK is built with **Java 17** and aims to provide a unified interface for text generation, keeping your business logic decoupled from specific provider implementations. It carries minimal dependencies (Jackson for JSON, SLF4J for logging) and contains **no Spring/Spring Boot dependencies** in the core, making it suitable for any Java environment.
 
----
+----
 
 ## Table of Contents
 - [Features](#features)
